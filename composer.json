@@ -1,0 +1,35 @@
+{
+    "name": "manialib/manialink",
+    "type": "library",
+    "description": "Fluent object interface for writing Manialink",
+    "keywords": ["Ubisoft", "Nadeo", "ManiaPlanet", "ShootMania", "TrackMania", "Manialib"],
+    "license": "MIT",
+    "homepage": "https://github.com/manialib",
+    "authors": [
+        {
+            "name": "Nadeo",
+            "email": "contact@nadeo.com",
+            "homepage": "http://www.nadeo.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"ManiaLib\\": "src/ManiaLib/"}
+    },
+    "require": {
+        "manialib/xml": "~4.0"
+    },
+     "require-dev": {
+        "symfony/console": "~2.4",
+        "symfony/stopwatch": "~2.4",
+        "symfony/finder": "~2.3"
+    },
+    "minimum-stability": "dev",
+    "archive": {
+        "exclude": ["/bin", "/examples"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    }
+}
