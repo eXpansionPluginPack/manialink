@@ -1,3 +1,1 @@
-# Manialib\Manialink
-
-Fluent object interface for writing Manialink
+More info: https://github.com/manialib/manialib
